@@ -1,0 +1,2 @@
+"use strict";var btnHamburger=document.querySelector("#btnHamburger"),header=document.querySelector(".header"),overlay=document.querySelector("overlay");btnHamburger.addEventListener("click",(function(){console.log("Open Hamburger"),header.classList.contains("open")?header.classList.remove("open"):(header.classList.add("open"),overlay.classList.add("fade-in"))}));
+//# sourceMappingURL=script.js.map

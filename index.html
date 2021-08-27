@@ -21,7 +21,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/app/scss/style.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
 
     <title>Frontend Mentor | Easybank landing page</title>
 
@@ -38,11 +38,14 @@
   </head>
   <body>
     <header class="header">
+      <div class="overlay">
+        
+      </div>
       <nav class="flex flex-jc-sb flex-ai-c">
         <a href="/" class="header__logo"
           ><img src="./images/logo.svg" alt="Easybank"
         /></a>
-        <a href="/" class="header__menu hide-for-desktop">
+        <a href="/" id="btnHamburger" class="header__menu hide-for-desktop">
           <span></span>
           <span></span>
           <span></span>
@@ -57,6 +60,6 @@
         >
       </nav>
     </header>
-    <script src="/app/js/script.js"></script>
+    <script src="/dist/script.js"></script>
   </body>
 </html>
