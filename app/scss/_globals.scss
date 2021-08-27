@@ -40,7 +40,6 @@ a:hover {
 }
 
 // buttons
-button,
 .button {
   padding: 0.875rem 2.1875rem;
   border-radius: 50px;
@@ -49,6 +48,12 @@ button,
   border: none;
   color: $white;
   font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
 }
 
 // visibility
